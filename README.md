@@ -8,3 +8,13 @@ The performance metrics assessed included the ratio of intact obstacles, burned 
 
 
 ![git1](./HA_star.gif)
+
+
+## Vehicles and Kinematics
+
+Our robot employs an Ackermann steering configuration, modeled after the Mercedes Unimog, a robust off-road vehicle. For the kinematic model, we assume control over the drive wheels' velocity \( v \) and the steering wheels' direction \( \psi \). The steering angle is constrained to ±60°, and we aim to maintain a speed of 10 m/s (approximately 22 mph). The vehicle's wheelbase \( L \) is set at 2.8 meters.
+
+![git2](./firetruck_kinematics.png)
+
+## Conclusion
+The grid-based A* planner achieved faster computation times but exhibited less effective firefighting capabilities compared to the PRM sampling-based method. While the pre-computed roadmap offered an advantage, the firetruck's movements were still restricted by the roadmap's topology. The Wumpus's straightforward goal planning efficiently spread fires, but more advanced threat prioritization could enhance the firetruck's response. Overall, the simulation highlighted the trade-offs between combinatorial and sampling-based planners in terms of path optimality, computational complexity, and dynamic replanning abilities.
