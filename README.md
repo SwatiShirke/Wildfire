@@ -7,4 +7,4 @@ The environment was a 250m x 250m field with 10% coverage of randomly generated 
 The performance metrics assessed included the ratio of intact obstacles, burned obstacles, extinguished obstacles, and the total computation time for each planner. The Wumpus aimed to ignite the nearest unburned obstacle, while the firetruck prioritized extinguishing the most dangerous fires based on a heuristic that considered the number of nearby intact obstacles.
 
 
-![git1](https://github.com/SwatiShirke/Wildfire/blob/main/Hastar.gif)
+![git1](https://github.com/SwatiShirke/Wildfire/Hastar.gif)
